@@ -1,0 +1,172 @@
+
+LTTextBoxHorizontal (18.0, 587.96352)
+Ortega Commons        
+
+LTTextBoxHorizontal (848.04, 588.882)
+Weekly Menu 
+
+LTTextBoxHorizontal (20.22, 548.49)
+Breakfast                                             Mon-Fri 7:15am-10:45am, Sat-Sun Closed
+
+LTTextBoxHorizontal (76.92, 512.3235)
+Monday
+March 09
+
+LTTextBoxHorizontal (211.14792, 512.3235)
+Tuesday
+March 10
+
+LTTextBoxHorizontal (337.0893, 522.91464)
+Wednesday
+
+LTTextBoxHorizontal (344.29368, 511.60206)
+March 11
+
+LTTextBoxHorizontal (476.52762, 511.60206)
+Thursday
+March 12
+
+LTTextBoxHorizontal (611.64732, 510.09906)
+Friday
+March 13
+
+LTTextBoxHorizontal (745.38426, 510.09906)
+Saturday
+March 14
+
+LTTextBoxHorizontal (881.64624, 510.09906)
+Sunday
+March 15
+
+LTTextBoxHorizontal (33.72, 413.94054)
+Oatmeal (vgn)
+Make Your Own Waffles (v)
+Fresh Cage Free Scrambled Eggs (v)    
+Cage Free Scrambled Egg Whites (v)
+Chilequilles (v)       
+Hash Browns (vgn)
+
+LTTextBoxHorizontal (166.49922, 389.92872)
+Oatmeal (vgn)
+Arroz Con Leche (v)
+Make Your Own Waffles (v)
+Fresh Cage Free Scrambled Eggs (v)    
+Cage Free Scrambled Egg Whites (v)
+Whole Wheat Pancakes (v)
+Grilled Ham Steaks       
+Home Fried Potatoes (vgn)
+
+LTTextBoxHorizontal (299.22258, 413.90064)
+Oatmeal (vgn)
+Make Your Own Waffles (v)
+Fresh Cage Free Scrambled Eggs (v)    
+Cage Free Scrambled Egg Whites (v)
+Strawberry Cream Crepes (v)
+Potatoes Obrien (vgn)
+
+LTTextBoxHorizontal (462.42, 486.0435)
+Hot Foods      
+
+LTTextBoxHorizontal (434.22024, 425.91054)
+Oatmeal (vgn)
+Make Your Own Waffles (v)
+Fresh Cage Free Scrambled Eggs (v)    
+Cage Free Scrambled Egg Whites (v)
+Tater Tots (vgn)
+
+LTTextBoxHorizontal (566.99946, 413.9166)
+Oatmeal (vgn)
+Make Your Own Waffles (v)
+Fresh Cage Free Scrambled Eggs (v)    
+Cage Free Scrambled Egg Whites (v)
+Chorizo And Eggs         
+Hash Browns (vgn)
+
+LTTextBoxHorizontal (33.72, 340.38822)
+Blueberry Muffin (v)      
+Applesauce Bread (w/nuts) (v)
+
+LTTextBoxHorizontal (166.49922, 340.38822)
+Bagels- See Breads/cereals For Choices
+Banana Choc Chip Muffin (v)
+
+LTTextBoxHorizontal (299.22258, 340.38822)
+Donut (v)
+Raspberry Cr. Cheese Coffee Cake (w/nut)
+
+LTTextBoxHorizontal (434.22024, 340.38822)
+Bagels- See Breads/cereals For Choices
+Cinnamon Coffee Cake (v)    
+
+LTTextBoxHorizontal (566.99946, 340.38822)
+Bagels- See Breads/cereals For Choices
+Lemon Yogurt Muffin (v)
+
+LTTextBoxHorizontal (478.2, 364.4835)
+Bakery
+
+LTTextBoxHorizontal (444.0, 306.9235)
+Omelet Made to Order
+
+LTTextBoxHorizontal (434.22, 162.80902)
+Omelets Made To Order
+Large Fresh Eggs (v)
+Egg Whites (v)
+Bacon                    
+Sausage Links Skinless Cooked
+Oven Roasted Turkey Breast
+Sliced Ham
+Grilled Onions (v)
+Red Bell Pepper Strips (vgn)
+Green Bell Pepper Strips (vgn)
+Sliced Mushrooms (vgn)
+Jack & Cheddar Cheese Mix (v)
+
+LTTextBoxHorizontal (45.65292, 46.036036)
+Join our community Facebook UCSB Residential Dining Services
+
+LTTextBoxHorizontal (21.0, 15.6466)
+Friday, March 06, 2015  15:05:24
+
+LTTextBoxHorizontal (236.22, 15.6466)
+Univ of CA Santa Barbara
+
+LTTextBoxHorizontal (453.0, 15.6466)
+The CBORD Group, Inc.
+
+LTTextBoxHorizontal (791.9886, 64.382276)
+ Instagram UCSBResDining
+
+LTTextBoxHorizontal (861.23286, 48.390136)
+and
+
+LTTextBoxHorizontal (773.88378, 32.390236)
+ 
+
+LTTextBoxHorizontal (797.28912, 32.382256)
+ Twitter @UCSBResDining
+
+LTTextBoxHorizontal (925.07778, 15.3865)
+Page 1 of 6
+
+LTLine
+LTCurve
+LTCurve
+LTLine
+LTLine
+LTRect
+LTCurve
+LTLine
+LTLine
+LTRect
+LTCurve
+LTLine
+LTLine
+LTRect
+LTLine
+LTRect
+LTRect
+LTRect
+LTFigure
+LTFigure
+LTFigure

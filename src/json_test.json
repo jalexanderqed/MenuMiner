@@ -1,0 +1,207 @@
+{
+    "days": {
+        "friday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "monday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "saturday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "sunday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "thursday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "tuesday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        },
+        "wednesday": {
+            "meals": {
+                "breakfast": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "bright_meal": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "dinner": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "late_night": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                },
+                "lunch": {
+                    "categories": {
+                        "hot food": "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+                    }
+                }
+            }
+        }
+    }
+}
