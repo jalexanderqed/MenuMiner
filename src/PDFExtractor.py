@@ -23,7 +23,7 @@ from pdfminer.layout import LAParams, LTTextBox, LTTextLine, LTFigure, LTCompone
 from pdfminer.pdfpage import PDFTextExtractionNotAllowed
 import os
 
-theFile = open('thisweekmenu.pdf', 'rb')
+theFile = open('testmenu.pdf', 'rb')
 parser = PDFParser(theFile)
 document = PDFDocument(parser)
 if not document.is_extractable:

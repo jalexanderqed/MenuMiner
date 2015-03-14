@@ -10,9 +10,10 @@ import json
 import os 
 
 menu = menu_object.menuObject()
-for daykey in menu.days.iterkeys():
-    for mealkey in menu.days[daykey].meals.iterkeys():
-        menu.days[daykey].meals[mealkey].categories['hot food'] = "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
+for hallkey in menu.halls:
+    for daykey in menu.halls[hallkey].days.iterkeys():
+        for mealkey in menu.halls[hallkey].days[daykey].meals.iterkeys():
+            menu.halls[hallkey].days[daykey].meals[mealkey].categories['hot food'] = "baaaaannnnnnnaaaaaaannnnnaaaaaaa"
         
 if os.path.isfile('json_test.json'):
     os.remove('json_test.json')

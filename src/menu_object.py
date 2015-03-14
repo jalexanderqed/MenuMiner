@@ -17,7 +17,7 @@ class day(object):
         self.meals['late_night'] = meal()
         self.meals['bright_meal'] = meal()
         
-class menuObject(object):
+class diningHall(object):
     def __init__(self):
         self.days = {}
         self.days['monday'] = day()
@@ -27,3 +27,11 @@ class menuObject(object):
         self.days['friday'] = day()
         self.days['saturday'] = day()
         self.days['sunday'] = day()
+        
+class menuObject(object):
+    def __init__(self):
+        self.halls = {}
+        self.halls['dlg'] = diningHall()
+        self.halls['ortega'] = diningHall()
+        self.halls['carrillo'] = diningHall()
+        self.halls['portola'] = diningHall()
