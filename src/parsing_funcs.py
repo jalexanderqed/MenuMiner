@@ -5,11 +5,14 @@ Created on Mar 14, 2015
 '''
 from itertools import islice
 from cgitb import text
+from pickle import FALSE
 def nth(iterable, n, default=None):
     "Returns the nth item or a default value"
     return next(islice(iterable, n, None), default)
 
 import menu_object
+import utils
+
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
@@ -18,20 +21,20 @@ from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams, LTTextBox, LTTextLine, LTFigure, LTComponent, LTText, LTTextBoxHorizontal
 from pdfminer.pdfpage import PDFTextExtractionNotAllowed
 
-menu = menu_object.menuObject()
+dayPos = []
+for i in range(7):
+    dayPos.append(-1)
 
-mondayPos = -1
-tuesdayPos = -1
-wednesdayPos = -1
-thursdayPos = -1
-fridayPos = -1
-saturdayPos = -1
-sundayPos = -1
+meal = "@"
 
-categoryPos = {}
+upperLimit = 10000
+lowerLimit = -1
+
+categoryPos = []
 
 def getDayPos(layout):
-    """Function to recursively parse each page."""
+    """Function to find the positions of the various days.
+        Also sets the meal variable by finding the first instance of a meal name"""
     global mondayPos
     global tuesdayPos
     global wednesdayPos
@@ -39,26 +42,46 @@ def getDayPos(layout):
     global fridayPos
     global saturdayPos
     global sundayPos
+    global meal
     for lt_obj in layout:        
         if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
-            if "Monday" in lt_obj.get_text() and mondayPos == -1:
-                mondayPos = lt_obj.x0
-            elif "Tuesday" in lt_obj.get_text() and tuesdayPos == -1:
-                tuesdayPos = lt_obj.x0
-            elif "Wednesday" in lt_obj.get_text() and wednesdayPos == -1:
-                wednesdayPos = lt_obj.x0
-            elif "Thursday" in lt_obj.get_text() and thursdayPos == -1:
-                thursdayPos = lt_obj.x0
-            elif "Friday" in lt_obj.get_text() and fridayPos == -1:
-                fridayPos = lt_obj.x0
-            elif "Saturday" in lt_obj.get_text() and saturdayPos == -1:
-                saturdayPos = lt_obj.x0
-            elif "Sunday" in lt_obj.get_text() and sundayPos == -1:
-                sundayPos = lt_obj.x0
+            if lt_obj.get_text().startswith("Monday") and dayPos[0] == -1:
+                dayPos[0] = lt_obj.x0
+            elif lt_obj.get_text().startswith("Tuesday") and dayPos[1] == -1:
+                dayPos[1] = lt_obj.x0
+            elif lt_obj.get_text().startswith("Wednesday") and dayPos[2] == -1:
+                dayPos[2] = lt_obj.x0
+            elif lt_obj.get_text().startswith("Thursday") and dayPos[3] == -1:
+                dayPos[3] = lt_obj.x0
+            elif lt_obj.get_text().startswith("Friday") and dayPos[4] == -1:
+                dayPos[4] = lt_obj.x0
+            elif lt_obj.get_text().startswith("Saturday") and dayPos[5] == -1:
+                dayPos[5] = lt_obj.x0 
+            elif lt_obj.get_text().startswith("Sunday") and dayPos[6] == -1:
+                dayPos[6] = lt_obj.x0
+            else:
+                if meal == "@":
+                    if lt_obj.get_text().strip().startswith("Breakfast"):
+                        meal = "breakfast"
+                    elif lt_obj.get_text().strip().startswith("Brunch"):
+                        meal = "brunch"
+                    elif lt_obj.get_text().strip().startswith("Lunch"):
+                        meal = "lunch"
+                    elif lt_obj.get_text().strip().startswith("Dinner"):
+                        meal = "dinner"
+                    elif lt_obj.get_text().strip().startswith("Late Night"):
+                        meal = "late_night"
+                    elif lt_obj.get_text().strip().startswith("Gaucho Bright Meal"):
+                        meal = "bright_meal"
+                    
         else:
-            if mondayPos == -1 or tuesdayPos == -1 or wednesdayPos == -1 or thursdayPos == -1 or fridayPos == -1 \
-            or saturdayPos == -1 or sundayPos == -1:
-                if isinstance(lt_obj, LTFigure):
+            if isinstance(lt_obj, LTFigure):
+                repeat = False
+                for i in range(0, 6):
+                    if dayPos[i] == -1:
+                        repeat = True
+                        break
+                if repeat:
                     getDayPos(lt_obj)  # Recursive
             else:
                 break
@@ -71,40 +94,92 @@ def isCategory(text):
             or text == "Panini/Pizza" or text == "Grilled Sandwiches to Order"
 
 def getCategoryPos(layout):
-    for lt_obj in layout:        
+    for lt_obj in layout:
         if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
             text = lt_obj.get_text().strip()
             if isCategory(text):
-                categoryPos[text] = lt_obj.y0
+                categoryPos.append((text, lt_obj.y0))
 
         else:
             if isinstance(lt_obj, LTFigure):
                     getDayPos(lt_obj)  # Recursive
-            
-def buildMenuPage(layout, addTo):
-    if isinstance(addTo, menu_object.menuObject):
-        raise Exception("menuObject incorrectly passed to buildMenuPage()")
+                    
+def getLowerLimit(layout):
+    global lowerLimit
     
-    mondayPos = -1
-    tuesdayPos = -1
-    wednesdayPos = -1
-    thursdayPos = -1
-    fridayPos = -1
-    saturdayPos = -1
-    sundayPos = -1
+    for lt_obj in layout:
+        if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
+            if "Instagram" in lt_obj.get_text() or "Twitter" in lt_obj.get_text() or \
+                "Facebook" in lt_obj.get_text() or "CBORD" in lt_obj.get_text():
+                if (lt_obj.y1 + 2) > lowerLimit:
+                    lowerLimit = lt_obj.y1 + 2
+        else:
+            if isinstance(lt_obj, LTFigure):
+                    getLowerLimit(lt_obj)  # Recursive
+
+def insertAll(layout, commonsMenu):
+    global dayPos
+    global meal
+    global categoryPos
+    global upperLimit
+    global lowerLimit
+        
+    for lt_obj in layout:
+        if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
+            if lt_obj.y0 < upperLimit and lt_obj.y0 > lowerLimit:
+                text = lt_obj.get_text().strip()
+                if not isCategory(text):
+                    allItems = lt_obj.get_text().split("\n")
+                    for item in allItems:
+                        if item.strip() != "":
+                            myCategory = getCategory(lt_obj.y0)
+                            currentCatDict = commonsMenu.days[getDay(lt_obj.x0)].meals[meal].categories
+                            if myCategory in currentCatDict:
+                                currentCatDict[myCategory].append(item.strip())
+                            else:
+                                currentCatDict[myCategory] = []
+                                currentCatDict[myCategory].append(item.strip())
+                            
+        else:
+            if isinstance(lt_obj, LTFigure):
+                    insertAll(lt_obj, commonsMenu)  # Recursive
+
+def getDay(xPos):
+    for i in range(0, len(dayPos)):
+        if xPos <= dayPos[i]:
+            return utils.numToDay(i)
+    raise Exception("Overly large value " + str(xPos) + " passed to getDay().")
+
+def getCategory(catPos):
+    for i in range(0, len(categoryPos)):
+        if catPos <= categoryPos[i][1]:
+            return categoryPos[i][0]
+            
+def buildMenuPage(layout, commonsMenu):
+    global dayPos
+    global meal
+    global categoryPos
+    global upperLimit
+    global lowerLimit
+    
+    dayPos = []
+    for i in range(7):
+        dayPos.append(-1)
+    meal = "@"
+    upperLimit = 10000
+    lowerLimit = -1
+    categoryPos = []
+    
+    if not isinstance(commonsMenu, menu_object.diningHall):
+        raise Exception("Second argument to buildMenuPage was not a dining hall.")
     
     getDayPos(layout)
-    
-    categoryPos = {}
     getCategoryPos(layout)
-
-def printAll(layout, result=""):
-    """Function to recursively print the layout tree."""
-    for lt_obj in layout:
-        result += ("\n" + lt_obj.__class__.__name__)
-        if isinstance(lt_obj, LTTextBox) or isinstance(lt_obj, LTTextLine):
-            result += (" (" + str(lt_obj.x0) + ", " + str(lt_obj.y0) + ")" + "\n")
-            result += (lt_obj.get_text())
-        elif isinstance(lt_obj, LTFigure):
-            printAll(lt_obj, result)  # Recursive
-    return result
+    getLowerLimit(layout)
+    
+    categoryPos= sorted(categoryPos, key=lambda tup: tup[1])
+    upperLimit = categoryPos[len(categoryPos) - 1][1] - 2
+    
+    insertAll(layout, commonsMenu)
+    
+    print(meal)

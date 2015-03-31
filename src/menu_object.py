@@ -12,6 +12,7 @@ class day(object):
     def __init__(self):
         self.meals = {}
         self.meals['breakfast'] = meal()
+        self.meals['brunch'] = meal()
         self.meals['lunch'] = meal()
         self.meals['dinner'] = meal()
         self.meals['late_night'] = meal()

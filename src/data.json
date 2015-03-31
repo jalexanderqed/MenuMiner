@@ -1,0 +1,1458 @@
+{
+    "halls": {
+        "carrillo": {
+            "days": {
+                "friday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "monday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "saturday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "sunday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "thursday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "tuesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "wednesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                }
+            }
+        },
+        "dlg": {
+            "days": {
+                "friday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Dinner": [
+                                    "Water",
+                                    "Orange (vgn)",
+                                    "Lentil Soup (vgn)",
+                                    "Sauteed Zucchini W/ Garlic (vgn)",
+                                    "Brown Rice (vgn)",
+                                    "Tilapia"
+                                ],
+                                "Lunch": [
+                                    "Gold Peak Unsweetened Iced Tea",
+                                    "Fuji Apple (vgn)",
+                                    "Peanut Butter Chunky Skippy",
+                                    "Gazpacho Salad (vgn)",
+                                    "Celery",
+                                    "Shredded Red Cabbage (vgn)",
+                                    "Jack & Cheddar Cheese Mix (v)",
+                                    "Fresh Carrot & Broccoli Mix (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Yeast Bread (v)",
+                                    "Toll House Pie"
+                                ],
+                                "Blue Plate Special": [
+                                    "Lentil Soup (vgn)",
+                                    "Tilapia W/red Curry Sauce (w/nuts)",
+                                    "Sauteed Zucchini W/ Garlic (vgn)",
+                                    "Risotto With Fresh Vegetables (vgn)",
+                                    "Jasmine Rice (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Friday",
+                                    "March 13"
+                                ],
+                                "Pizza": [
+                                    "Sausage Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Beef Taquito",
+                                    "Cheese Enchilada (v)",
+                                    "Spanish Rice (vgn)",
+                                    "Black Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fire Roasted Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Teriyaki Chicken Rice Bowl",
+                                    "Dragon Noodles (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Garlic French Bread (v)",
+                                    "Peanut Butter Bar (w/nuts) (v)",
+                                    "Chocolate Cream Cheese Cupcake (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Cream Of Mushroom Soup (v)",
+                                    "Italian Sub",
+                                    "Fresh Carrot & Broccoli Mix (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Char Burger",
+                                    "Black Bean Burger (vgn)",
+                                    "Grilled Chicken Burger",
+                                    "Shoestring French Fries (vgn)"
+                                ],
+                                "Lunch": [
+                                    "Friday",
+                                    "March 13"
+                                ],
+                                "Pizza": [
+                                    "Shrimp Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Mediterranean Orzo Pasta Salad (v)",
+                                    "Gazpacho Salad (vgn)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Bbq Chicken Quesadilla",
+                                    "Bean Rice And Cheese Tostada (v)",
+                                    "Spanish Rice (vgn)",
+                                    "Black Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fire Roasted Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Garlic Cream Sauce With Vegetables (v)",
+                                    "Fettucini Pasta (vgn)",
+                                    "Alburro Sauce (v)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "monday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Dinner": [
+                                    "Organic Nonfat Milk",
+                                    "Banana (vgn)",
+                                    "Crunchy Peanut Butter (vgn)",
+                                    "Tomato Basil Soup (v)",
+                                    "Fresh Vegetable Medley (vgn)",
+                                    "Sourdough Whole Wheat Bread (v)"
+                                ],
+                                "Lunch": [
+                                    "Water",
+                                    "Fuji Apple (vgn)",
+                                    "Nonfat Plain Greek Yogurt (v)",
+                                    "Peanut Butter Chunky Skippy",
+                                    "Raisins (vgn)",
+                                    "Enchilada Rajas (vgn)",
+                                    "Fresh Vegetable Medley (vgn)"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Sourdough Whole Wheat Bread (v)",
+                                    "Italian Cream Cake (w/nuts) (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Tomato Basil Soup (v)",
+                                    "Lemon Pepper Rotisserie Chicken",
+                                    "Fresh Vegetable Medley (vgn)",
+                                    "Herb Polenta W/ Mushroom Ragout (v)",
+                                    "Rice Pilaf (v)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Monday",
+                                    "March 09"
+                                ],
+                                "Pizza": [
+                                    "Salami Pizza",
+                                    "Mushroom & Black Olive Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Shredded Beef Tostada",
+                                    "Vegetable Empanada (v)",
+                                    "Rice With Corn And Roasted Chiles (vgn)",
+                                    "Pinto Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fire Roasted Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Cheese Sauce (v)",
+                                    "Rotelli Pasta (vgn)",
+                                    "Garden Vegetable Marinara Sauce (vgn)",
+                                    "Linguini Pasta (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {
+                                "Bakery": [
+                                    "Brownie (v)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Char Burger",
+                                    "Gardenburger (v)",
+                                    "Grilled Cheese Sandwich On White (v)",
+                                    "Grilled Ham & Swiss On Sourdough",
+                                    "Krinkle Cut French Fries (vgn)",
+                                    "Soup",
+                                    "Late Night Salad Bar"
+                                ]
+                            }
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Garlic Roll (v)",
+                                    "Toll House Bar (v) (no Nuts)",
+                                    "Cheesecake Bar (w/nuts) (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Pozole Soup",
+                                    "Mushroom Stroganoff (v)",
+                                    "Fresh Vegetable Medley (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Char Burger",
+                                    "Gardenburger (v)",
+                                    "Grilled Mozzarella&tom On 100% Wheat (v)",
+                                    "Shoestring French Fries (vgn)"
+                                ],
+                                "Lunch": [
+                                    "Monday",
+                                    "March 09"
+                                ],
+                                "Pizza": [
+                                    "Salami Pizza",
+                                    "Mushroom & Black Olive Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Spinach Salad W/ Vinaigrette",
+                                    "Chinese Chicken Salad (w/nuts)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Beef Soft Taco",
+                                    "Enchilada Rajas (vgn)",
+                                    "Rice With Corn And Roasted Chiles (vgn)",
+                                    "Pinto Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fire Roasted Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Chicken Chow Mein",
+                                    "Tofu Szechwan (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "saturday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {
+                                "Bakery": [
+                                    "Cinnamon Roll (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Oatmeal (vgn)",
+                                    "Fresh Cage Free Scrambled Eggs (v)",
+                                    "Scrambled Egg Whites (v)",
+                                    "Pancakes (v)",
+                                    "Diced Potatoes With Onions (vgn)",
+                                    "Waffles (v)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Sliced Cantalope (vgn)",
+                                    "Sliced Honeydew (vgn)",
+                                    "Grapefruit Halves (vgn)"
+                                ]
+                            }
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Brunch": [
+                                    "Soy Milk (vgn)",
+                                    "Sliced Honeydew (vgn)",
+                                    "Sliced Cantalope (vgn)",
+                                    "Nonfat Plain Greek Yogurt (v)",
+                                    "Minestrone Soup (v)",
+                                    "Swiss Chard W/ Fresh Garlic (vgn)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Water",
+                                    "Banana (vgn)",
+                                    "Tomato Soup W/fresh Vegetables (vgn)",
+                                    "Fresh Spinach W/garlic (vgn)",
+                                    "Brown Rice (vgn)",
+                                    "Black Bean Salsa (vgn)",
+                                    "Rotisserie Pork Loin"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Cinnamon Roll (v)",
+                                    "Bagels- See Breads/cereals For Choices"
+                                ],
+                                "Blue Plate Special": [
+                                    "Minestrone Soup (v)",
+                                    "Tuna Wrap",
+                                    "Swiss Chard W/ Fresh Garlic (vgn)",
+                                    "Baked Potato (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Oatmeal (vgn)",
+                                    "Fresh Cage Free Scrambled Eggs (v)",
+                                    "Scrambled Egg Whites (v)",
+                                    "Pancakes (v)",
+                                    "Diced Potatoes With Onions (vgn)",
+                                    "Waffles (v)"
+                                ],
+                                "Pizza": [
+                                    "Pepperoni Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Ambrosia Salad (w/nuts) (v)",
+                                    "Sliced Cantalope (vgn)",
+                                    "Sliced Honeydew (vgn)",
+                                    "Grapefruit Halves (vgn)"
+                                ]
+                            }
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Sourdough Rounds (v)",
+                                    "Marble Cake W/chocolate Icing (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Tomato Soup W/fresh Vegetables (vgn)",
+                                    "Rotisserie Pork Loin",
+                                    "Fresh Spinach W/garlic (vgn)",
+                                    "Roasted Potato Wedges (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Saturday",
+                                    "March 14"
+                                ],
+                                "Pizza": [
+                                    "Pepperoni Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Soft Corn Chicken Taco",
+                                    "Bean & Cheese Sopes (v)",
+                                    "Spanish Rice (vgn)",
+                                    "Refried Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Black Bean Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Chicken With Polynesian Bbq Sauce",
+                                    "Vegetable Lo Mein (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Lunch": [
+                                    "Saturday",
+                                    "March 14"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "sunday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Breakfast": [
+                                    "Soy Milk (vgn)",
+                                    "Grapefruit Halves (vgn)",
+                                    "Sliced Cantalope (vgn)",
+                                    "Whole Wheat Sliced Bread (v)",
+                                    "Peanut Butter Chunky Skippy",
+                                    "Grape Jelly (vgn)"
+                                ],
+                                "Brunch": [
+                                    "Almond Milk",
+                                    "Sliced Honeydew (vgn)",
+                                    "Fresh Broccoli Spears (vgn)",
+                                    "Brown Rice (vgn)",
+                                    "Jack & Cheddar Cheese Mix (v)",
+                                    "Vegetable Soup (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Organic Nonfat Milk",
+                                    "Fuji Apple (vgn)",
+                                    "Fresh Spinach (vgn)",
+                                    "Balsamic Vinegar (vgn)",
+                                    "Oil Olive Evo Corto",
+                                    "Diced Tomatoes",
+                                    "Whole Kernal Corn (vgn)",
+                                    "Celery (vgn)",
+                                    "Shredded Carrots (vgn)",
+                                    "Hummus (vgn)",
+                                    "Four Bean Stew (vgn)",
+                                    "Onion Walnut Bread (w/nuts) (v)"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Glazed Raisin Bread (v)",
+                                    "Banana Nut Muffin (w/nuts) (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Vegetable Soup (vgn)",
+                                    "Pulled Pork Sandwich",
+                                    "Fresh Broccoli Spears (vgn)",
+                                    "Baked Potato (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Cream Of Wheat (v)",
+                                    "Fresh Cage Free Scrambled Eggs (v)",
+                                    "Scrambled Egg Whites (v)",
+                                    "Cage Free Scrambled Eggs W/mushrooms (v",
+                                    "Grilled Ham",
+                                    "Tater Tots (vgn)",
+                                    "Waffles (v)"
+                                ],
+                                "Pizza": [
+                                    "Bbq Chicken Pizza",
+                                    "Vegetable Pizza On Wheat (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Parmesan Pasta Salad (v)",
+                                    "Sliced Cantalope (vgn)",
+                                    "Sliced Honeydew (vgn)",
+                                    "Grapefruit Halves (vgn)"
+                                ]
+                            }
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Onion Walnut Bread (w/nuts) (v)",
+                                    "German Apple Cake (w/nuts) (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Cream Of Sweet Potato Soup",
+                                    "Sweet & Sour Pot Roast",
+                                    "Four Bean Stew (vgn)",
+                                    "Mashed Potatoes W/ Herbs (v)",
+                                    "Beef Gravy",
+                                    "Peas (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Sunday",
+                                    "March 15"
+                                ],
+                                "Pizza": [
+                                    "Bbq Chicken Pizza",
+                                    "Vegetable Pizza On Wheat (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Chicken Tostada",
+                                    "Burrito Black Bean Rice Cheese (v)",
+                                    "Mexican Rice (vgn)",
+                                    "Pinto Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fresh Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Marinara Sauce W/ Sausage",
+                                    "Fettucini Pasta (vgn)",
+                                    "Pasta Primavera (v)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Lunch": [
+                                    "Sunday",
+                                    "March 15"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "thursday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Dinner": [
+                                    "Organic Nonfat Milk",
+                                    "Fuji Apple (vgn)",
+                                    "Carrot And Curry Soup (vgn)",
+                                    "Fresh Vegetable Medley (vgn)",
+                                    "Chicken Chop Suey",
+                                    "Whole Wheat French Bread (v)"
+                                ],
+                                "Lunch": [
+                                    "Water",
+                                    "Banana (vgn)",
+                                    "Baked Fish In Curry Sauce (w/nuts)",
+                                    "Country Wild Rice Blend (vgn)",
+                                    "Sauteed Spinach W/ Carrots & Peas (v)",
+                                    "Baked Sweet Potato (vgn)"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Whole Wheat French Bread (v)",
+                                    "Boston Cream Pie (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Carrot And Curry Soup (vgn)",
+                                    "Turkey Lasagna",
+                                    "Buttered Noodles (v)",
+                                    "Fresh Vegetable Medley (vgn)",
+                                    "Baked Potato (vgn)",
+                                    "Baked Sweet Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "March 11",
+                                    "Thursday",
+                                    "March 12"
+                                ],
+                                "Pizza": [
+                                    "Assorted Meat Pizza",
+                                    "Tomato Pesto Pizza W/ Wheat Crust (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Carnitas Taco",
+                                    "Black Bean Tostada (v)",
+                                    "Rice W/ Cilantro And Onions (vgn)",
+                                    "Refried Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Fresh Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Chicken Chop Suey",
+                                    "Vegetables W/peanut Sauce (w/nuts) (v)",
+                                    "Wild Rice Blend (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {
+                                "Bakery": [
+                                    "Black And White Brownie (v)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Cheeseburger",
+                                    "Black Bean Burger (vgn)",
+                                    "Grilled Cheese Sandwich On White (v)",
+                                    "Grilled Turkey Burger",
+                                    "Krinkle Cut French Fries (vgn)",
+                                    "Soup",
+                                    "Late Night Salad Bar"
+                                ]
+                            }
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Naan",
+                                    "Bread (v)",
+                                    "Garlic",
+                                    "Pudding Bread (v)",
+                                    "Coconut Cardamon Flan (v) (w/nuts)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Mulligatawny Soup",
+                                    "Baked Fish In Curry Sauce (w/nuts)",
+                                    "Sauteed Spinach W/ Carrots & Peas (v)",
+                                    "Baked Potato (vgn)",
+                                    "Baked Sweet Potato (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Grass Fed Burger",
+                                    "Malibu Burger (vgn)",
+                                    "Grilled Ham & Swiss On Wheat",
+                                    "Krinkle Cut French Fries (vgn)"
+                                ],
+                                "Lunch": [
+                                    "March 11",
+                                    "Thursday",
+                                    "March 12"
+                                ],
+                                "Pizza": [
+                                    "Assorted Meat Pizza",
+                                    "Tomato Pesto Pizza W/ Wheat Crust (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Papaya Mango Chaat Salad (vgn)",
+                                    "Marinated Vegetable Salad (vgn)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Beef Vindaloo",
+                                    "Burrito Black Bean Rice Cheese (v)",
+                                    "Rice W/ Cilantro And Onions (vgn)",
+                                    "Refried Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Tomato Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Tikka Masala Chicken",
+                                    "Sweet Potato Curry (vgn)",
+                                    "Wild Rice Blend (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "tuesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Dinner": [
+                                    "Water",
+                                    "Banana (vgn)",
+                                    "Steamed Vegetables & Rice (vgn)",
+                                    "Japanese Noodles W/tofu & Bok Choy (v)"
+                                ],
+                                "Lunch": [
+                                    "Organic Nonfat Milk",
+                                    "Fuji Apple (vgn)",
+                                    "Pasta Fazool Soup (vgn)",
+                                    "Avocado & Tomato Salad (vgn)",
+                                    "Brussel Sprouts (vgn)",
+                                    "Cracked Wheat Roll (v)"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Three Grain Roll (v)",
+                                    "Mexican Chocolate Cake (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Hearty Vegetable Soup (vgn)",
+                                    "Beef Brisket",
+                                    "Carrots With Tarragon (v)",
+                                    "Steamed Vegetables & Rice (vgn)",
+                                    "Roasted Red Potato Wedges (vgn)",
+                                    "Baked Potato (vgn)",
+                                    "Baked Sweet Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Tuesday",
+                                    "March 10"
+                                ],
+                                "Pizza": [
+                                    "Pepperoni Pizza",
+                                    "Roasted Tomato & Basil Wheat Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Beef And Bean Burrito",
+                                    "Potato Gordas W/ Black Beans (v)",
+                                    "Spanish Rice (vgn)",
+                                    "Refried Black Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Tomato And Roasted Corn Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Sesame Chicken W/asian Vegetables",
+                                    "Japanese Noodles W/tofu & Bok Choy (v)",
+                                    "Country Wild Rice Blend (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {
+                                "Bakery": [
+                                    "Toll House Bar (v) (no Nuts)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Char Burger",
+                                    "Black Bean Burger (vgn)",
+                                    "Grilled Cheese Sandwich On White (v)",
+                                    "Turkey Sub Sandwich",
+                                    "Shoestring French Fries (vgn)",
+                                    "Soup",
+                                    "Late Night Salad Bar"
+                                ]
+                            }
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Cracked Wheat Roll (v)",
+                                    "Chocolate Chip Cookie (v)",
+                                    "Apple Kuchen (w/nuts)  (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Pasta Fazool Soup (vgn)",
+                                    "Penne Mostacioli (vgn)",
+                                    "Butternut Squash Sauce (v)",
+                                    "Brussel Sprouts (vgn)",
+                                    "Baked Potato (vgn)",
+                                    "Baked Sweet Potato (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Char Burger",
+                                    "Malibu Burger (vgn)",
+                                    "Grilled Cheese Sandwich On Sourdough (v)",
+                                    "Shoestring French Fries (vgn)"
+                                ],
+                                "Lunch": [
+                                    "Tuesday",
+                                    "March 10"
+                                ],
+                                "Pizza": [
+                                    "Pepperoni Pizza",
+                                    "Roasted Tomato & Basil Wheat Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Broccoli Almond Salad (w/nuts) (v)",
+                                    "Avocado & Tomato Salad (vgn)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Chicken Enchilada",
+                                    "Vegetable Chimichanga (v)",
+                                    "Spanish Rice (vgn)",
+                                    "Refried Black Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla",
+                                    "Roasted Tomato And Chile Salsa (vgn)"
+                                ],
+                                "To Order": [
+                                    "Turkey Stir Fry With Vegetables & Rice",
+                                    "Spicy Vegetable Stir Fry (vgn)",
+                                    "Country Wild Rice Blend (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "wednesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {
+                                "Dinner": [
+                                    "Organic Nonfat Milk",
+                                    "Crunchy Peanut Butter (vgn)",
+                                    "Banana (vgn)",
+                                    "Roasted Butternut Squash Soup (v)",
+                                    "Ratatouile W/white Beans (vgn)",
+                                    "Fresh Spinach (vgn)",
+                                    "Balsamic Vinegar (vgn)",
+                                    "Oil Olive Evo Corto",
+                                    "Garbanzo Beans (vgn)",
+                                    "Sliced Cucumbers",
+                                    "Shoestring Beets (vgn)",
+                                    "Shredded Red Cabbage (vgn)",
+                                    "Celery (vgn)",
+                                    "Shredded Carrots (vgn)",
+                                    "Cherry Tomatoes (vgn)"
+                                ],
+                                "Lunch": [
+                                    "Water",
+                                    "Fuji Apple (vgn)",
+                                    "Raisins (vgn)",
+                                    "Nonfat Plain Greek Yogurt (v)",
+                                    "Black Bean Salad (vgn)",
+                                    "Pasta Nicoise Salad"
+                                ]
+                            }
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {
+                                "Bakery": [
+                                    "Garlic Roll (v)",
+                                    "French Crumb Apple Pie (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Roasted Butternut Squash Soup (v)",
+                                    "Baked Chicken",
+                                    "Ratatouile W/white Beans (vgn)",
+                                    "Rice Pilaf (v)",
+                                    "Fresh Broccoli Spears (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Dinner": [
+                                    "Wednesday"
+                                ],
+                                "Pizza": [
+                                    "Hawaiian Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Caesar Salad (v)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Turkey Taco",
+                                    "Vegetable Fajita (v)",
+                                    "Green Rice (vgn)",
+                                    "Pinto Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla"
+                                ],
+                                "To Order": [
+                                    "Creamy Rosemary Sauce (v)",
+                                    "Bowtie Pasta (vgn)",
+                                    "Marinara Sauce (vgn)",
+                                    "Spaghetti Pasta (vgn)",
+                                    "Jasmine Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        },
+                        "late_night": {
+                            "categories": {
+                                "Bakery": [
+                                    "Rice Krispie Treat (v)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Cheeseburger",
+                                    "Malibu Burger (vgn)",
+                                    "Grilled Cheese Sandwich On Wheat (v)",
+                                    "Grilled Turkey Burger",
+                                    "Shoestring French Fries (vgn)",
+                                    "Soup",
+                                    "Late Night Salad Bar"
+                                ]
+                            }
+                        },
+                        "lunch": {
+                            "categories": {
+                                "Bakery": [
+                                    "Sesame Roll (v)",
+                                    "Jelly Bar Spritz (v)",
+                                    "Butterscotch Bar (w/nuts) (v)"
+                                ],
+                                "Blue Plate Special": [
+                                    "Chicken Noodle Soup",
+                                    "Turkey Focaccia Sandwich",
+                                    "Corn (vgn)",
+                                    "Baked Potato (vgn)"
+                                ],
+                                "Grill (Cafe)": [
+                                    "Cheeseburger",
+                                    "Black Bean Burger (vgn)",
+                                    "Grilled Swiss On 100% Whole Wheat (v)",
+                                    "Krinkle Cut French Fries (vgn)"
+                                ],
+                                "Lunch": [
+                                    "Wednesday"
+                                ],
+                                "Pizza": [
+                                    "Hawaiian Pizza",
+                                    "Cheese Pizza (v)",
+                                    "Herb Breadsticks (vgn)"
+                                ],
+                                "Salads/Deli (West Side)": [
+                                    "Pasta Nicoise Salad",
+                                    "Black Bean Salad (vgn)"
+                                ],
+                                "Taqueria (East Side)": [
+                                    "Fried Chicken Taquito",
+                                    "Vegetable Taco (vgn)",
+                                    "Green Rice (vgn)",
+                                    "Pinto Beans (vgn)",
+                                    "Flour Tortilla (vgn)",
+                                    "Corn Tortilla",
+                                    "Wheat Tortilla"
+                                ],
+                                "To Order": [
+                                    "Sesame Beef With Broccoli",
+                                    "Lemon Ginger Tofu Stir Fry (vgn)",
+                                    "Long Grain Rice (vgn)",
+                                    "Brown Rice (vgn)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ortega": {
+            "days": {
+                "friday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "monday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "saturday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "sunday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "thursday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "tuesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "wednesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                }
+            }
+        },
+        "portola": {
+            "days": {
+                "friday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "monday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "saturday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "sunday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "thursday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "tuesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                },
+                "wednesday": {
+                    "meals": {
+                        "breakfast": {
+                            "categories": {}
+                        },
+                        "bright_meal": {
+                            "categories": {}
+                        },
+                        "brunch": {
+                            "categories": {}
+                        },
+                        "dinner": {
+                            "categories": {}
+                        },
+                        "late_night": {
+                            "categories": {}
+                        },
+                        "lunch": {
+                            "categories": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

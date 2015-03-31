@@ -1,16 +1,12 @@
 
 LTTextBoxHorizontal (18.0, 587.96352)
-Ortega Commons        
+De La Guerra Commons 
 
-LTTextBoxHorizontal (848.04, 588.882)
+LTTextBoxHorizontal (830.9315, 588.882)
 Weekly Menu 
 
-LTTextBoxHorizontal (20.22, 548.49)
-Breakfast                                             Mon-Fri 7:15am-10:45am, Sat-Sun Closed
-
-LTTextBoxHorizontal (76.92, 512.3235)
-Monday
-March 09
+LTTextBoxHorizontal (20.2115, 548.49)
+Lunch                                                Mon-Fri 11:00am-2:30pm, Sat-Sun See Brunch
 
 LTTextBoxHorizontal (211.14792, 512.3235)
 Tuesday
@@ -38,95 +34,195 @@ LTTextBoxHorizontal (881.64624, 510.09906)
 Sunday
 March 15
 
-LTTextBoxHorizontal (33.72, 413.94054)
-Oatmeal (vgn)
-Make Your Own Waffles (v)
-Fresh Cage Free Scrambled Eggs (v)    
-Cage Free Scrambled Egg Whites (v)
-Chilequilles (v)       
-Hash Browns (vgn)
+LTTextBoxHorizontal (76.92, 512.3235)
+Monday
+March 09
 
-LTTextBoxHorizontal (166.49922, 389.92872)
-Oatmeal (vgn)
-Arroz Con Leche (v)
-Make Your Own Waffles (v)
-Fresh Cage Free Scrambled Eggs (v)    
-Cage Free Scrambled Egg Whites (v)
-Whole Wheat Pancakes (v)
-Grilled Ham Steaks       
-Home Fried Potatoes (vgn)
+LTTextBoxHorizontal (33.72, 437.94438)
+Pozole Soup
+Mushroom Stroganoff (v)  
+Fresh Vegetable Medley (vgn)
+Baked Potato (vgn)
 
-LTTextBoxHorizontal (299.22258, 413.90064)
-Oatmeal (vgn)
-Make Your Own Waffles (v)
-Fresh Cage Free Scrambled Eggs (v)    
-Cage Free Scrambled Egg Whites (v)
-Strawberry Cream Crepes (v)
-Potatoes Obrien (vgn)
+LTTextBoxHorizontal (166.49922, 413.93256)
+Pasta Fazool Soup (vgn)       
+Penne Mostacioli (vgn)
+Butternut Squash Sauce (v)
+Brussel Sprouts (vgn)        
+Baked Potato (vgn)
+Baked Sweet Potato (vgn)
 
-LTTextBoxHorizontal (462.42, 486.0435)
-Hot Foods      
+LTTextBoxHorizontal (299.22258, 437.91246)
+Chicken Noodle Soup
+Turkey Focaccia Sandwich
+Corn (vgn)                     
+Baked Potato (vgn)
 
-LTTextBoxHorizontal (434.22024, 425.91054)
-Oatmeal (vgn)
-Make Your Own Waffles (v)
-Fresh Cage Free Scrambled Eggs (v)    
-Cage Free Scrambled Egg Whites (v)
-Tater Tots (vgn)
+LTTextBoxHorizontal (33.72, 292.3767)
+Beef Soft Taco         
+Enchilada Rajas (vgn)
+Rice With Corn And Roasted Chiles (vgn)
+Pinto Beans (vgn)
+Flour Tortilla (vgn)
+Corn Tortilla
+Wheat Tortilla
+Fire Roasted Tomato Salsa (vgn)
 
-LTTextBoxHorizontal (566.99946, 413.9166)
-Oatmeal (vgn)
-Make Your Own Waffles (v)
-Fresh Cage Free Scrambled Eggs (v)    
-Cage Free Scrambled Egg Whites (v)
-Chorizo And Eggs         
-Hash Browns (vgn)
+LTTextBoxHorizontal (166.49922, 292.36074)
+Chicken Enchilada
+Vegetable Chimichanga (v)
+Spanish Rice (vgn)
+Refried Black Beans (vgn)
+Flour Tortilla (vgn)
+Corn Tortilla
+Wheat Tortilla
+Roasted Tomato And Chile Salsa (vgn)
 
-LTTextBoxHorizontal (33.72, 340.38822)
-Blueberry Muffin (v)      
-Applesauce Bread (w/nuts) (v)
+LTTextBoxHorizontal (299.22258, 304.31478)
+Fried Chicken Taquito
+Vegetable Taco (vgn)
+Green Rice (vgn)
+Pinto Beans (vgn)
+Flour Tortilla (vgn)
+Corn Tortilla
+Wheat Tortilla
 
-LTTextBoxHorizontal (166.49922, 340.38822)
-Bagels- See Breads/cereals For Choices
-Banana Choc Chip Muffin (v)
+LTTextBoxHorizontal (453.18, 486.0435)
+Blue Plate Special
 
-LTTextBoxHorizontal (299.22258, 340.38822)
-Donut (v)
-Raspberry Cr. Cheese Coffee Cake (w/nut)
+LTTextBoxHorizontal (434.22024, 425.91852)
+Mulligatawny Soup
+Baked Fish In Curry Sauce (w/nuts)
+Sauteed Spinach W/ Carrots & Peas (v)
+Baked Potato (vgn)
+Baked Sweet Potato (vgn)
 
-LTTextBoxHorizontal (434.22024, 340.38822)
-Bagels- See Breads/cereals For Choices
-Cinnamon Coffee Cake (v)    
+LTTextBoxHorizontal (566.99946, 437.92842)
+Cream Of Mushroom Soup (v)
+Italian Sub
+Fresh Carrot & Broccoli Mix (vgn)
+Baked Potato (vgn)
 
-LTTextBoxHorizontal (566.99946, 340.38822)
-Bagels- See Breads/cereals For Choices
-Lemon Yogurt Muffin (v)
+LTTextBoxHorizontal (448.32, 388.4835)
+Taqueria (East Side)
 
-LTTextBoxHorizontal (478.2, 364.4835)
-Bakery
+LTTextBoxHorizontal (434.22024, 292.32882)
+Beef Vindaloo
+Burrito Black Bean Rice Cheese (v)
+Rice W/ Cilantro And Onions (vgn)
+Refried Beans (vgn)  
+Flour Tortilla (vgn)
+Corn Tortilla
+Wheat Tortilla
+Tomato Salsa (vgn)
 
-LTTextBoxHorizontal (444.0, 306.9235)
-Omelet Made to Order
+LTTextBoxHorizontal (481.56, 266.9235)
+Pizza
 
-LTTextBoxHorizontal (434.22, 162.80902)
-Omelets Made To Order
-Large Fresh Eggs (v)
-Egg Whites (v)
-Bacon                    
-Sausage Links Skinless Cooked
-Oven Roasted Turkey Breast
-Sliced Ham
-Grilled Onions (v)
-Red Bell Pepper Strips (vgn)
-Green Bell Pepper Strips (vgn)
-Sliced Mushrooms (vgn)
-Jack & Cheddar Cheese Mix (v)
+LTTextBoxHorizontal (566.99946, 292.34478)
+Bbq Chicken Quesadilla
+Bean Rice And Cheese Tostada (v)
+Spanish Rice (vgn)
+Black Beans (vgn)
+Flour Tortilla (vgn)
+Corn Tortilla
+Wheat Tortilla
+Fire Roasted Tomato Salsa (vgn)
 
-LTTextBoxHorizontal (45.65292, 46.036036)
-Join our community Facebook UCSB Residential Dining Services
+LTTextBoxHorizontal (33.72, 230.8263)
+Salami Pizza
+Mushroom & Black Olive Pizza (v)
+Herb Breadsticks (vgn)
+
+LTTextBoxHorizontal (166.49922, 230.8263)
+Pepperoni Pizza
+Roasted Tomato & Basil Wheat Pizza (v) 
+Herb Breadsticks (vgn)
+
+LTTextBoxHorizontal (299.22258, 230.8263)
+Hawaiian Pizza
+Cheese Pizza (v)
+Herb Breadsticks (vgn)
+
+LTTextBoxHorizontal (434.22024, 230.8263)
+Assorted Meat Pizza
+Tomato Pesto Pizza W/ Wheat Crust (v)
+Herb Breadsticks (vgn)
+
+LTTextBoxHorizontal (566.99946, 230.8263)
+Shrimp Pizza  
+Cheese Pizza (v)
+Herb Breadsticks (vgn)
+
+LTTextBoxHorizontal (33.72, 157.26438)
+Chicken Chow Mein        
+Tofu Szechwan (vgn)
+Long Grain Rice (vgn) 
+Brown Rice (vgn) 
+
+LTTextBoxHorizontal (166.49922, 157.2564)
+Turkey Stir Fry With Vegetables & Rice
+Spicy Vegetable Stir Fry (vgn)
+Country Wild Rice Blend (vgn) 
+Brown Rice (vgn) 
+
+LTTextBoxHorizontal (299.22258, 157.23246)
+Sesame Beef With Broccoli
+Lemon Ginger Tofu Stir Fry (vgn)
+Long Grain Rice (vgn) 
+Brown Rice (vgn) 
+
+LTTextBoxHorizontal (33.72, 71.70438)
+Char Burger               
+Gardenburger (v)
+Grilled Mozzarella&tom On 100% Wheat (v)
+Shoestring French Fries (vgn)
+
+LTTextBoxHorizontal (166.49922, 71.6964)
+Char Burger               
+Malibu Burger (vgn)
+Grilled Cheese Sandwich On Sourdough (v)
+Shoestring French Fries (vgn)
+
+LTTextBoxHorizontal (299.22258, 71.67246)
+Cheeseburger
+Black Bean Burger (vgn)
+Grilled Swiss On 100% Whole Wheat (v)
+Krinkle Cut French Fries (vgn)
+
+LTTextBoxHorizontal (474.18, 205.3635)
+To Order
+
+LTTextBoxHorizontal (434.22024, 157.24044)
+Tikka Masala Chicken
+Sweet Potato Curry (vgn)
+Wild Rice Blend (vgn) 
+Brown Rice (vgn) 
+
+LTTextBoxHorizontal (469.56, 119.8035)
+Grill (Cafe)
+
+LTTextBoxHorizontal (434.22024, 71.68044)
+Grass Fed Burger
+Malibu Burger (vgn)
+Grilled Ham & Swiss On Wheat
+Krinkle Cut French Fries (vgn)
+
+LTTextBoxHorizontal (566.99946, 145.2465)
+Garlic Cream Sauce With Vegetables (v)
+Fettucini Pasta (vgn)             
+Alburro Sauce (v)
+Long Grain Rice (vgn) 
+Brown Rice (vgn) 
+
+LTTextBoxHorizontal (566.99946, 71.68842)
+Char Burger               
+Black Bean Burger (vgn)
+Grilled Chicken Burger
+Shoestring French Fries (vgn)
 
 LTTextBoxHorizontal (21.0, 15.6466)
-Friday, March 06, 2015  15:05:24
+Friday, March 06, 2015  15:17:54
 
 LTTextBoxHorizontal (236.22, 15.6466)
 Univ of CA Santa Barbara
@@ -134,23 +230,19 @@ Univ of CA Santa Barbara
 LTTextBoxHorizontal (453.0, 15.6466)
 The CBORD Group, Inc.
 
-LTTextBoxHorizontal (791.9886, 64.382276)
- Instagram UCSBResDining
-
-LTTextBoxHorizontal (861.23286, 48.390136)
-and
-
-LTTextBoxHorizontal (773.88378, 32.390236)
- 
-
-LTTextBoxHorizontal (797.28912, 32.382256)
- Twitter @UCSBResDining
-
-LTTextBoxHorizontal (925.07778, 15.3865)
-Page 1 of 6
+LTTextBoxHorizontal (925.086, 15.36558)
+Page 2 of 9
 
 LTLine
 LTCurve
+LTCurve
+LTLine
+LTLine
+LTRect
+LTCurve
+LTLine
+LTLine
+LTRect
 LTCurve
 LTLine
 LTLine
@@ -167,6 +259,3 @@ LTLine
 LTRect
 LTRect
 LTRect
-LTFigure
-LTFigure
-LTFigure
