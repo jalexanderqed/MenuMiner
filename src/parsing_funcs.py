@@ -4,6 +4,7 @@ Created on Mar 14, 2015
 @author: jalexander
 '''
 from itertools import islice
+from cgitb import text
 def nth(iterable, n, default=None):
     "Returns the nth item or a default value"
     return next(islice(iterable, n, None), default)
@@ -27,17 +28,18 @@ fridayPos = -1
 saturdayPos = -1
 sundayPos = -1
 
+categoryPos = {}
+
 def getDayPos(layout):
     """Function to recursively parse each page."""
-    for lt_obj in layout:
-        global mondayPos
-        global tuesdayPos
-        global wednesdayPos
-        global thursdayPos
-        global fridayPos
-        global saturdayPos
-        global sundayPos
-        
+    global mondayPos
+    global tuesdayPos
+    global wednesdayPos
+    global thursdayPos
+    global fridayPos
+    global saturdayPos
+    global sundayPos
+    for lt_obj in layout:        
         if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
             if "Monday" in lt_obj.get_text() and mondayPos == -1:
                 mondayPos = lt_obj.x0
@@ -60,8 +62,29 @@ def getDayPos(layout):
                     getDayPos(lt_obj)  # Recursive
             else:
                 break
+
+def isCategory(text):
+    return text == "Blue Plate Special" or "Taqueria" in text or text == "Pizza" or text == "To Order" \
+            or "Salads/Deli" in text or text == "Grill (Cafe)" or text == "Bakery" or text == "Breakfast" \
+            or text == "Lunch" or text == "Brunch" or text == "Dinner" or text == "Omelet Made to Order" \
+            or text == "Hot Foods" or text == "Salads" or text == "Specialty Bar" or text == "Sushi" \
+            or text == "Panini/Pizza" or text == "Grilled Sandwiches to Order"
+
+def getCategoryPos(layout):
+    for lt_obj in layout:        
+        if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
+            text = lt_obj.get_text().strip()
+            if isCategory(text):
+                categoryPos[text] = lt_obj.y0
+
+        else:
+            if isinstance(lt_obj, LTFigure):
+                    getDayPos(lt_obj)  # Recursive
             
-def buildMenuPage(layout):
+def buildMenuPage(layout, addTo):
+    if isinstance(addTo, menu_object.menuObject):
+        raise Exception("menuObject incorrectly passed to buildMenuPage()")
+    
     mondayPos = -1
     tuesdayPos = -1
     wednesdayPos = -1
@@ -71,6 +94,9 @@ def buildMenuPage(layout):
     sundayPos = -1
     
     getDayPos(layout)
+    
+    categoryPos = {}
+    getCategoryPos(layout)
 
 def printAll(layout, result=""):
     """Function to recursively print the layout tree."""
