@@ -87,22 +87,33 @@ def getDayPos(layout):
                 break
 
 def isCategory(text):
+    print "start"
+    print text
+    print "end"
+    print text == "Bakery"
     return text == "Blue Plate Special" or "Taqueria" in text or text == "Pizza" or text == "To Order" \
-            or "Salads/Deli" in text or text == "Grill (Cafe)" or text == "Bakery" or text == "Breakfast" \
-            or text == "Lunch" or text == "Brunch" or text == "Dinner" or text == "Omelet Made to Order" \
+            or "Salads/Deli" in text or text == "Grill (Cafe)" or text == "Bakery" or (text == "Breakfast" \
+            and meal == "bright_meal") or (text == "Lunch" and meal == "bright_meal") \
+            or (text == "Brunch" and meal == "bright_meal") or (text == "Dinner" and meal == "bright_meal") or \
+            text == "Omelet Made to Order" \
             or text == "Hot Foods" or text == "Salads" or text == "Specialty Bar" or text == "Sushi" \
             or text == "Panini/Pizza" or text == "Grilled Sandwiches to Order"
 
 def getCategoryPos(layout):
+    global categoryPos
+    
     for lt_obj in layout:
+        print categoryPos
         if issubclass(lt_obj.__class__, LTTextBox) or isinstance(lt_obj, LTTextBox):
             text = lt_obj.get_text().strip()
             if isCategory(text):
+                print "APPENDED"
                 categoryPos.append((text, lt_obj.y0))
+                print categoryPos
 
         else:
             if isinstance(lt_obj, LTFigure):
-                    getDayPos(lt_obj)  # Recursive
+                    getCategoryPos(lt_obj)  # Recursive
                     
 def getLowerLimit(layout):
     global lowerLimit
@@ -145,12 +156,14 @@ def insertAll(layout, commonsMenu):
                     insertAll(lt_obj, commonsMenu)  # Recursive
 
 def getDay(xPos):
+    global dayPos
     for i in range(0, len(dayPos)):
         if xPos <= dayPos[i]:
             return utils.numToDay(i)
     raise Exception("Overly large value " + str(xPos) + " passed to getDay().")
 
 def getCategory(catPos):
+    global categoryPos
     for i in range(0, len(categoryPos)):
         if catPos <= categoryPos[i][1]:
             return categoryPos[i][0]
@@ -175,9 +188,15 @@ def buildMenuPage(layout, commonsMenu):
     
     getDayPos(layout)
     getCategoryPos(layout)
+    print categoryPos
     getLowerLimit(layout)
     
     categoryPos= sorted(categoryPos, key=lambda tup: tup[1])
+    print(categoryPos)
+    
+    if len(categoryPos) == 0:
+        raise Exception("Blank page, no categories.")
+        
     upperLimit = categoryPos[len(categoryPos) - 1][1] - 2
     
     insertAll(layout, commonsMenu)

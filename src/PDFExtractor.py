@@ -9,7 +9,9 @@ import parsing_funcs
 import utils
 
 import json
-import os 
+import os
+
+import StringIO
 
 from itertools import islice
 def nth(iterable, n, default=None):
@@ -24,38 +26,47 @@ from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams, LTTextBox, LTTextLine, LTFigure, LTComponent, LTText, LTTextBoxHorizontal
 from pdfminer.pdfpage import PDFTextExtractionNotAllowed
 import os
-
-theFile = open('dlg.pdf', 'rb')
-parser = PDFParser(theFile)
-document = PDFDocument(parser)
-if not document.is_extractable:
-    raise PDFTextExtractionNotAllowed
-
-rsrcmgr = PDFResourceManager()
-laparams = LAParams()
-device = PDFPageAggregator(rsrcmgr, laparams=laparams)
-interpreter = PDFPageInterpreter(rsrcmgr, device)
-    
-'''    if os.path.isfile('menu_text.txt'):
-        os.remove('menu_text.txt')
-    outfile = open('menu_text.txt', 'w')
-    outfile.write(utils.printAll(layout))
-    outfile.flush()
-    outfile.close()'''
+import urllib2
     
 menu = menu_object.menuObject()
 
-i = 0
-page = nth(PDFPage.create_pages(document), i)
+halls = ['ortega', 'dlg', 'carrillo', 'portola']
 
-while page != None:
-    interpreter.process_page(page)
-    layout = device.get_result()
+for menuIndex in range(4):
+    response = urllib2.urlopen('https://static.housing.ucsb.edu/menu/' + halls[menuIndex] + '/thisweekmenu.pdf')
+    html = response.read()
     
-    parsing_funcs.buildMenuPage(layout, menu.halls['dlg'])
-    i += 1
+    fileObj = StringIO.StringIO()
+    fileObj.write(html)
+    
+    #theFile = open('dlg.pdf', 'rb')
+    parser = PDFParser(fileObj)
+    document = PDFDocument(parser)
+    if not document.is_extractable:
+        raise PDFTextExtractionNotAllowed
+    
+    rsrcmgr = PDFResourceManager()
+    laparams = LAParams()
+    device = PDFPageAggregator(rsrcmgr, laparams=laparams)
+    interpreter = PDFPageInterpreter(rsrcmgr, device)
+    
+    i = 0
     page = nth(PDFPage.create_pages(document), i)
-
+    
+    while page != None:
+        interpreter.process_page(page)
+        layout = device.get_result()
+        
+        if os.path.isfile('menu_text.txt'):
+            os.remove('menu_text.txt')
+        outfile = open('menu_text.txt', 'w')
+        outfile.write(utils.printAll(layout))
+        outfile.flush()
+        outfile.close()
+        
+        parsing_funcs.buildMenuPage(layout, menu.halls[halls[menuIndex]])
+        i += 1
+        page = nth(PDFPage.create_pages(document), i)
 
 if os.path.isfile('data.json'):
     os.remove('data.json')
